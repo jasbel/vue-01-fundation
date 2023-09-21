@@ -12,10 +12,10 @@ export default {
     title: String,
     start: {
       type: Number,
-      default: 10,
+      default: 100,
       // required: true
       validator(v) {
-        return v > 100;
+        return v >=0;
       }
     },
   },
